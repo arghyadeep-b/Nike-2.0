@@ -4,7 +4,7 @@ import { navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="padding-x padding-y absolute z-10 w-full">
+    <header className="padding-x padding-y absolute z-10 w-full lg:py-8">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
