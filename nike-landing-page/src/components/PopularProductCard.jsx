@@ -1,13 +1,13 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { star } from "../assets/icons";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   // For changing quantity of add to cart options
-  const [quantity, setQuantity] = useState(0);
-  const changeQuantity = (num) => {
-    if (num === -1 && quantity === 0) return;
-    else setQuantity(quantity + num);
-  };
+  // const [quantity, setQuantity] = useState(0);
+  // const changeQuantity = (num) => {
+  //   if (num === -1 && quantity === 0) return;
+  //   else setQuantity(quantity + num);
+  // };
 
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
