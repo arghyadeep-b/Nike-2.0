@@ -22,7 +22,7 @@ const Nav = () => {
           ))}
         </ul>
         {/* //! Hamburger menu needs to be made responsive  */}
-        <div className="hidden max-lg:block">
+        <div className="hidden max-lg:block hover:cursor-pointer">
           <img src={hamburger} alt="hamburger" width={25} height={25} />
         </div>
       </nav>

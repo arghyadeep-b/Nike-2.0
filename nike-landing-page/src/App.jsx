@@ -11,7 +11,7 @@ import {
 import Nav from "./components/Navbar";
 
 const App = () => (
-  <main className="relative">
+  <main className="relative select-none">
     <Nav />
     <section className="xl:padding-l padding-y wide:padding-r">
       <Hero />
